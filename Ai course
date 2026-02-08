@@ -50,6 +50,11 @@ def uni_dict(book_list):
     return uni
 
 
-  def map
+   def float
+      x = float(19)
+      print(x)
+      
+def say-hello():
+    print('hello!')
 MR pilevar ,is it like these?? or is it wrong? based on this link https://docs.python.org/3/library/functions.html
 
