@@ -1,0 +1,55 @@
+Errors  :: you told us write 10 errors
+#syntaxeror پرانتز باز یا ندارد #print('hello'
+
+
+#typeerror داده اشتباه #x=5 y= "hello" z=x+y str و int جمع نمیشه
+
+
+#nameerror استفاده از متغییر تعریف نشده print(y) yتعریف نشد
+
+
+#keyerror d={"a":1} print(d["b"]) کلید bوجود ندارد 
+
+
+#valueerror مقدار اشتباه برای تابع int("abc") رشته که به عدد تبدیل نمیشه
+
+#importerror وارد کردن ماژول اشتباه import nonexistmodule
+
+
+
+#IndentationError if true:                      if true:
+                  #  print("hello")  اشتباه          # print("hello")  باید اینطوری باشه
+                                                     
+                  
+                    
+#AttributeError استفاده از متد اشتباه x=5 x.append(3)    append فقط برای لیست است 
+          
+
+#RuntimeError  def f(): f() f()  بازگشت بی نهایت باعث این ارور میشه
+
+
+#FileNotFoundError فایل موجود نیست open("nofile.txt)
+
+
+
+
+
+.......................................................................................................................................
+NEW PRACTICE::
+BUILT function
+
+def custom_input(name):
+    print(name)
+    user_name = input()
+    return user_name
+
+def uni_dict(book_list):
+    uni = {}
+    for key, value in pairs:
+        uni[key] = value
+    return uni
+
+
+  def map
+MR pilevar ,is it like these?? or is it wrong? based on this link https://docs.python.org/3/library/functions.html
+
